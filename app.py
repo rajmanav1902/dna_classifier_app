@@ -4,7 +4,7 @@ import tensorflow as tf
 from utils import one_hot_encode
 
 # Load model
-model = tf.keras.models.load_model("model/trained_model.h5")
+model = tf.keras.models.load_model("trained_model.h5")
 
 st.title("🧬 DNA Sequence Classifier")
 st.write("Paste a DNA sequence below to classify it:")
