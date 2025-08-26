@@ -4,7 +4,7 @@ import tensorflow as tf
 from utils import one_hot_encode
 
 # Load the trained model
-model = tf.keras.models.load_model("trained_model.h5")
+model = tf.keras.models.load_model("trained_model.keras")
 
 # Define class labels — adjust if your model uses different ones
 classes = ['Coding', 'Non-Coding', 'Promoter']
